@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <!-- ===================== META & SEO ===================== -->
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Portfólio de Karoline Souza — Desenvolvedora de Software e Educadora em Tecnologia. Graduada pela Fatec em Desenvolvimento de Software Multiplataforma." />
+  <meta name="keywords" content="Karoline Souza, desenvolvedora, portfólio, programação, educadora, tecnologia, Fatec" />
+  <meta name="author" content="Karoline Souza" />
+  <meta property="og:title" content="Karoline Souza — Desenvolvedora & Educadora" />
+  <meta property="og:description" content="Portfólio profissional de Karoline Souza, desenvolvedora de software e educadora em tecnologia." />
+  <meta property="og:type" content="website" />
+  <title>Karoline Souza — Dev & Educadora</title>
+
+  <!-- ===================== FONTS ===================== -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;500;600;700;800&family=DM+Mono:ital,wght@0,300;0,400;0,500;1,300&family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet" />
+
+  <!-- ===================== ICONS ===================== -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+
+  <!-- ===================== STYLES ===================== -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ============================================================
+       CURSOR PERSONALIZADO
+  ============================================================ -->
+  <div class="cursor" id="cursor"></div>
+  <div class="cursor-follower" id="cursorFollower"></div>
+
+  <!-- ============================================================
+       NAVBAR
+  ============================================================ -->
+  <header class="navbar" id="navbar">
+    <div class="nav-inner">
+      <a href="#home" class="logo" aria-label="Início">
+        <span class="logo-bracket">[</span>KS<span class="logo-bracket">]</span>
+      </a>
+
+      <nav class="nav-links" id="navLinks" role="navigation" aria-label="Menu principal">
+        <a href="#home"     class="nav-link" data-section="home">Início</a>
+        <a href="#sobre"    class="nav-link" data-section="sobre">Sobre</a>
+        <a href="#projetos" class="nav-link" data-section="projetos">Projetos</a>
+        <a href="#contato"  class="nav-link" data-section="contato">Contato</a>
+      </nav>
+
+      <button class="hamburger" id="hamburger" aria-label="Abrir menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- ============================================================
+       SEÇÃO 1 — HOME
+  ============================================================ -->
+  <section id="home" class="section home-section">
+
+    <!-- Grade de fundo decorativa -->
+    <div class="grid-bg" aria-hidden="true"></div>
+
+    <!-- Partículas decorativas -->
+    <div class="particles" aria-hidden="true" id="particles"></div>
+
+    <div class="home-content">
+
+      <!-- Tag de status animada -->
+       <br>
+       <br>
+      <div class="status-tag reveal-item">
+        <span class="status-dot"></span>
+        Disponível para oportunidades
+      </div>
+
+      <!-- Saudação + nome -->
+      <p class="greeting reveal-item">Olá, eu sou</p>
+      <h1 class="hero-name reveal-item">
+        Karoline<br /><em>Souza</em>
+      </h1>
+
+      <!-- Título dinâmico com efeito typewriter -->
+      <div class="hero-role reveal-item">
+        <span class="role-prefix">// </span>
+        <span class="typewriter" id="typewriter"></span>
+        <span class="cursor-blink">|</span>
+      </div>
+
+      <!-- Descrição resumida -->
+      <p class="hero-desc reveal-item">
+        Desenvolvedora de software apaixonada por tecnologia e por transformar o futuro
+        através da educação. Ensino crianças e jovens a programar enquanto construo
+        soluções digitais que fazem diferença.
+      </p>
+
+      <!-- CTAs -->
+      <div class="hero-ctas reveal-item">
+        <a href="#projetos" class="btn btn-primary">
+          <i class="fa-solid fa-code"></i> Ver Projetos
+        </a>
+        <a href="#contato" class="btn btn-outline">
+          <i class="fa-solid fa-paper-plane"></i> Contato
+        </a>
+      </div>
+
+      <!-- Redes sociais rápidas -->
+      <div class="hero-socials reveal-item">
+        <a href="https://github.com/koralinee" target="_blank" rel="noopener" aria-label="GitHub">
+          <i class="fa-brands fa-github"></i>
+        </a>
+        <a href="https://www.linkedin.com/in/karoline-souza-225058213/" target="_blank" rel="noopener" aria-label="LinkedIn">
+          <i class="fa-brands fa-linkedin-in"></i>
+        </a>
+        <a href="https://instagram.com/hikoraline" target="_blank" rel="noopener" aria-label="Instagram">
+          <i class="fa-brands fa-instagram"></i>
+        </a>
+        <a href="mailto:karolinesouzas45@gmail.com" aria-label="E-mail">
+          <i class="fa-solid fa-envelope"></i>
+        </a>
+      </div>
+    </div>
+
+    <!-- Scroll indicator -->
+    <div class="scroll-indicator" aria-hidden="true">
+      <span>scroll</span>
+      <div class="scroll-line"></div>
+    </div>
+
+    <!-- Decoração lateral -->
+    <div class="side-decoration" aria-hidden="true">
+      <span class="side-text">karoline.souza — 2025</span>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       SEÇÃO 2 — SOBRE MIM
+  ============================================================ -->
+  <section id="sobre" class="section sobre-section">
+    <div class="container">
+
+      <!-- Cabeçalho da seção -->
+      <div class="section-header reveal-item">
+        <span class="section-tag">// 01</span>
+        <h2 class="section-title">Sobre Mim</h2>
+        <div class="section-line"></div>
+      </div>
+
+      <div class="sobre-grid">
+
+        <!-- Coluna de texto -->
+        <div class="sobre-text reveal-item">
+          <p class="sobre-intro">
+            Sou <strong>Karoline Souza</strong>, desenvolvedora de software com 22 anos,
+            graduada pela <strong>Fatec</strong> em Desenvolvimento de Software Multiplataforma
+            e com formação técnica pela <strong>Etec Parque Belém</strong> em Informática para Internet.
+          </p>
+          <p>
+            Minha trajetória une duas paixões: <em>criar tecnologia</em> e <em>ensinar pessoas</em>.
+            Atualmente trabalho em uma escola de programação e robótica, onde atuo como
+            coordenadora e professora, lecionando para alunos de 7 a 18 anos. Acredito que
+            a educação tecnológica é a maior alavanca de transformação social que existe.
+          </p>
+          <p>
+            No desenvolvimento, meu foco está em criar experiências digitais intuitivas,
+            acessíveis e bem arquitetadas. Cada linha de código é escrita com intenção.
+          </p>
+
+          <!-- Cards de formação -->
+          <div class="education-cards">
+            <div class="edu-card reveal-item">
+              <div class="edu-icon"><i class="fa-solid fa-graduation-cap"></i></div>
+              <div class="edu-info">
+                <strong>Graduação</strong>
+                <span>Desenvolvimento de Software Multiplataforma</span>
+                <em>Fatec</em>
+              </div>
+            </div>
+            <div class="edu-card reveal-item">
+              <div class="edu-icon"><i class="fa-solid fa-school"></i></div>
+              <div class="edu-info">
+                <strong>Técnico</strong>
+                <span>Informática para Internet</span>
+                <em>Etec Parque Belém</em>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Coluna de habilidades -->
+        <div class="sobre-skills reveal-item">
+          <h3 class="skills-title">Habilidades Técnicas</h3>
+
+          <div class="skills-grid">
+            <span class="skill-badge"><i class="fa-brands fa-html5"></i> HTML5</span>
+            <span class="skill-badge"><i class="fa-brands fa-css3-alt"></i> CSS3</span>
+            <span class="skill-badge"><i class="fa-brands fa-js"></i> JavaScript</span>
+            <span class="skill-badge"><i class="fa-brands fa-python"></i> Python</span>
+            <span class="skill-badge"><i class="fa-brands fa-java"></i> Java</span>
+            <span class="skill-badge"><i class="fa-solid fa-database"></i> SQL</span>
+            <span class="skill-badge"><i class="fa-brands fa-git-alt"></i> Git</span>
+            <span class="skill-badge"><i class="fa-brands fa-github"></i> GitHub</span>
+            <span class="skill-badge"><i class="fa-solid fa-mobile-screen"></i> Mobile</span>
+            <span class="skill-badge"><i class="fa-solid fa-robot"></i> Robótica</span>
+            <span class="skill-badge"><i class="fa-solid fa-chalkboard-teacher"></i> EdTech</span>
+            <span class="skill-badge"><i class="fa-solid fa-sitemap"></i> APIs REST</span>
+          </div>
+
+          <!-- Estatísticas -->
+          <div class="stats-row">
+            <div class="stat-item">
+              <span class="stat-num" data-target="5">0</span>
+              <span class="stat-label">Anos estudando</span>
+            </div>
+            <div class="stat-item">
+              <span class="stat-num" data-target="7">0</span>
+              <span class="stat-label">Projetos no GitHub</span>
+            </div>
+            <div class="stat-item">
+              <span class="stat-num" data-target="100">0</span>+
+              <span class="stat-label">Alunos impactados</span>
+            </div>
+          </div>
+        </div>
+
+      </div><!-- /sobre-grid -->
+    </div>
+  </section>
+
+  <!-- ============================================================
+       SEÇÃO 3 — PROJETOS
+  ============================================================ -->
+  <section id="projetos" class="section projetos-section">
+    <div class="container">
+
+      <div class="section-header reveal-item">
+        <span class="section-tag">// 02</span>
+        <h2 class="section-title">Projetos</h2>
+        <div class="section-line"></div>
+      </div>
+
+      <p class="section-desc reveal-item">
+        Uma seleção dos projetos que desenvolvi. Confira meu GitHub para ver tudo.
+      </p>
+
+      <!-- Grid de projetos (preenchido pelo JS via GitHub API) -->
+      <div class="projects-grid" id="projectsGrid">
+        <!-- Skeletons de carregamento -->
+        <div class="project-skeleton"></div>
+        <div class="project-skeleton"></div>
+        <div class="project-skeleton"></div>
+        <div class="project-skeleton"></div>
+        <div class="project-skeleton"></div>
+        <div class="project-skeleton"></div>
+      </div>
+
+      <!-- Botão GitHub -->
+      <div class="github-cta reveal-item">
+        <a href="https://github.com/koralinee" target="_blank" rel="noopener" class="btn btn-outline btn-lg">
+          <i class="fa-brands fa-github"></i> Ver todos no GitHub
+        </a>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ============================================================
+       SEÇÃO 4 — CONTATO
+  ============================================================ -->
+  <section id="contato" class="section contato-section">
+    <div class="container">
+
+      <div class="section-header reveal-item">
+        <span class="section-tag">// 03</span>
+        <h2 class="section-title">Contato</h2>
+        <div class="section-line"></div>
+      </div>
+
+      <div class="contato-grid">
+
+        <!-- Informações de contato -->
+        <div class="contato-info reveal-item">
+          <h3>Vamos conversar?</h3>
+          <p>
+            Estou sempre aberta a novas oportunidades, colaborações e projetos
+            interessantes. Me envie uma mensagem!
+          </p>
+
+          <div class="contact-links">
+            <a href="mailto:karolinesouzas45@gmail.com" class="contact-link">
+              <div class="contact-link-icon"><i class="fa-solid fa-envelope"></i></div>
+              <div class="contact-link-info">
+                <span>E-mail</span>
+                <strong>karolinesouzas45@gmail.com</strong>
+              </div>
+            </a>
+            <a href="https://www.linkedin.com/in/karoline-souza-225058213/" target="_blank" rel="noopener" class="contact-link">
+              <div class="contact-link-icon"><i class="fa-brands fa-linkedin-in"></i></div>
+              <div class="contact-link-info">
+                <span>LinkedIn</span>
+                <strong>karoline-souza-225058213</strong>
+              </div>
+            </a>
+            <a href="https://instagram.com/hikoraline" target="_blank" rel="noopener" class="contact-link">
+              <div class="contact-link-icon"><i class="fa-brands fa-instagram"></i></div>
+              <div class="contact-link-info">
+                <span>Instagram</span>
+                <strong>@hikoraline</strong>
+              </div>
+            </a>
+            <a href="https://github.com/koralinee" target="_blank" rel="noopener" class="contact-link">
+              <div class="contact-link-icon"><i class="fa-brands fa-github"></i></div>
+              <div class="contact-link-info">
+                <span>GitHub</span>
+                <strong>koralinee</strong>
+              </div>
+            </a>
+          </div>
+        </div>
+
+        <!-- Formulário -->
+        <form class="contact-form reveal-item" id="contactForm" novalidate>
+          <div class="form-group">
+            <label for="name">Nome</label>
+            <input
+              type="text"
+              id="name"
+              name="name"
+              placeholder="Seu nome completo"
+              autocomplete="name"
+              required
+            />
+            <span class="field-error" id="nameError"></span>
+          </div>
+
+          <div class="form-group">
+            <label for="email">E-mail</label>
+            <input
+              type="email"
+              id="email"
+              name="email"
+              placeholder="seu@email.com"
+              autocomplete="email"
+              required
+            />
+            <span class="field-error" id="emailError"></span>
+          </div>
+
+          <div class="form-group">
+            <label for="message">Mensagem</label>
+            <textarea
+              id="message"
+              name="message"
+              rows="5"
+              placeholder="Olá, Karoline! Gostaria de..."
+              required
+            ></textarea>
+            <span class="field-error" id="messageError"></span>
+          </div>
+
+          <button type="submit" class="btn btn-primary btn-submit" id="submitBtn">
+            <span class="btn-text"><i class="fa-solid fa-paper-plane"></i> Enviar Mensagem</span>
+            <span class="btn-loading" aria-hidden="true"><i class="fa-solid fa-circle-notch fa-spin"></i> Enviando...</span>
+          </button>
+
+          <!-- Feedback de envio -->
+          <div class="form-success" id="formSuccess" role="alert" aria-live="polite">
+            <i class="fa-solid fa-circle-check"></i>
+            Mensagem enviada com sucesso! Responderei em breve.
+          </div>
+        </form>
+
+      </div><!-- /contato-grid -->
+    </div>
+  </section>
+
+  <!-- ============================================================
+       FOOTER
+  ============================================================ -->
+  <footer class="footer">
+    <div class="container footer-inner">
+      <a href="#home" class="footer-logo">
+        <span class="logo-bracket">[</span>KS<span class="logo-bracket">]</span>
+      </a>
+      <p class="footer-copy">
+        © 2025 Karoline Souza — Feito com <i class="fa-solid fa-heart"></i> e muito café.
+      </p>
+      <div class="footer-socials">
+        <a href="https://github.com/koralinee"   target="_blank" rel="noopener" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+        <a href="https://www.linkedin.com/in/karoline-souza-225058213/" target="_blank" rel="noopener" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+        <a href="https://instagram.com/hikoraline" target="_blank" rel="noopener" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+        <a href="mailto:karolinesouzas45@gmail.com" aria-label="Email"><i class="fa-solid fa-envelope"></i></a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ============================================================
+       BOTÃO VOLTAR AO TOPO
+  ============================================================ -->
+  <button class="back-to-top" id="backToTop" aria-label="Voltar ao topo">
+    <i class="fa-solid fa-chevron-up"></i>
+  </button>
+
+  <!-- ============================================================
+       SCRIPTS
+  ============================================================ -->
+  <script src="script.js"></script>
+</body>
+</html>
